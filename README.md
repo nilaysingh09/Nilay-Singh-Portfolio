@@ -1,1 +1,1 @@
-# Project
+A modern and responsive personal portfolio website showcasing my projects, skills, experience, and creative work. Built to highlight my journey as a developer and provide an easy way to connect and collaborate.
