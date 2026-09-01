@@ -189,6 +189,8 @@ section{
 }
 
 .project-card{
+  position: relative;
+  height: 75vh;
   background:#1e293b;
   border-radius:15px;
   overflow:hidden;
@@ -196,7 +198,7 @@ section{
 }
 
 .project-card:hover{
-  transform:translateY(-10px);
+  transform:translateY(-5px);
 }
 
 .project-card img{
@@ -218,7 +220,6 @@ section{
   color:#cbd5e1;
   margin-bottom:20px;
 }
-
 /* CONTACT */
 
 .contact-container{
