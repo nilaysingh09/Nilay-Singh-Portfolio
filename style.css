@@ -220,6 +220,18 @@ section{
   color:#cbd5e1;
   margin-bottom:20px;
 }
+
+.butn{
+  position: absolute;
+  top:85%;
+  left: 20px;
+  display: inline-block;
+  padding:12px 24px;
+  border-radius:10px;
+  font-weight:600;
+  transition:0.3s;
+}
+
 /* CONTACT */
 
 .contact-container{
