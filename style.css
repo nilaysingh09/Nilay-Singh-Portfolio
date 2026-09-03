@@ -272,6 +272,18 @@ footer{
 
 /* RESPONSIVE */
 
+@media(max-width:1024px){
+  .projects-container{
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  }
+
+  .project-card{
+    height: 60vh;
+  }
+
+}
+
 @media(max-width:768px){
 
   nav{
