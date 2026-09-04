@@ -264,6 +264,51 @@ section{
 
 /* FOOTER */
 
+.footer{
+  width:100%;
+  padding:50px 10%;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+  background:rgba(15,23,42,0.8);
+  backdrop-filter:blur(10px);
+}
+
+.footer>div h4{
+  margin-bottom: 15px;
+}
+
+.footer-div-one p{
+  margin-top: 15px;
+}
+.footer-div-two ul{
+  padding-left: 20px;  
+}
+
+.logo{
+  font-size:1.5rem;
+  font-weight:700;
+  color:#38bdf8;
+}
+
+.social-links {
+  display: flex;
+  /* justify-content: center; */
+  padding: 10px 0px 0px 0px;
+  gap: 20px;
+}
+
+.social-icon {
+  fill: #ffffff; /* White iascon color */
+  transition: fill 0.3s ease, transform 0.2s ease;
+}
+
+/* Brand hover colors */
+.github-link:hover .social-icon { fill: #24292e; transform: translateY(-3px); }
+.linkedin-link:hover .social-icon { fill: #0077b5; transform: translateY(-3px); }
+.email-link:hover .social-icon { fill: #ea4335; transform: translateY(-3px); }
+
+
 footer{
   text-align:center;
   padding:20px;
