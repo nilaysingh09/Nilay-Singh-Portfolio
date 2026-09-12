@@ -73,7 +73,17 @@ nav{
 }
 
 .hero-text span{
-  color:#38bdf8;
+  background: linear-gradient(
+    90deg,
+    #22d3ee 0%,
+    #3b82f6 50%,
+    #a855f7 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .hero-text h3{
