@@ -328,9 +328,51 @@
 
   <!-- CONTACT -->
 
-  <section id="contact">
+  <section class="sectionalt" id="contact">
 
     <h2 class="section-title">Contact</h2>
+
+    <div class="contactsect">
+
+    <div class="form-container">
+        <h2>Contact Us</h2>
+        
+        <!-- Replace the action URL with your form processing endpoint -->
+        <form action="#" method="POST">
+            
+            <!-- Name Field -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+
+            <!-- Subject / Reason Field -->
+            <div class="form-group">
+                <label for="subject">Reason for Contact</label>
+                <select id="subject" name="subject">
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Technical Support</option>
+                    <option value="sales">Sales & Pricing</option>
+                </select>
+            </div>
+
+            <!-- Message Field -->
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Send Message</button>
+            
+        </form>
+    </div>
 
     <div class="contact-container">
 
@@ -356,7 +398,7 @@
       </div>
 
     </div>
-
+    </div>
   </section>
 
   <!-- FOOTER -->
